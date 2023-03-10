@@ -1,26 +1,28 @@
-import 'package:web3dart/crypto.dart';
+// import 'package:web3dart/crypto.dart';
+part of 'package:web3dart/web3dart.dart';
 
-enum EtherUnit {
-  ///Wei, the smallest and atomic amount of Ether
-  wei,
 
-  ///kwei, 1000 wei
-  kwei,
-
-  ///Mwei, one million wei
-  mwei,
-
-  ///Gwei, one billion wei. Typically a reasonable unit to measure gas prices.
-  gwei,
-
-  ///szabo, 10^12 wei or 1 μEther
-  szabo,
-
-  ///finney, 10^15 wei or 1 mEther
-  finney,
-
-  ether
-}
+// enum EtherUnit {
+//   ///Wei, the smallest and atomic amount of Ether
+//   wei,
+//
+//   ///kwei, 1000 wei
+//   kwei,
+//
+//   ///Mwei, one million wei
+//   mwei,
+//
+//   ///Gwei, one billion wei. Typically a reasonable unit to measure gas prices.
+//   gwei,
+//
+//   ///szabo, 10^12 wei or 1 μEther
+//   szabo,
+//
+//   ///finney, 10^15 wei or 1 mEther
+//   finney,
+//
+//   ether
+// }
 
 /// Utility class to easily convert amounts of Ether into different units of
 /// quantities.

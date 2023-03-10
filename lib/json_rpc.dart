@@ -94,7 +94,6 @@ class RPCResponse {
 class RPCError implements Exception {
   const RPCError(this.errorCode, this.message, this.data, [this.id]);
   /// Constructor.
-  const RPCError(this.errorCode, this.message, this.data);
 
   final int? id;
   /// Error code.
